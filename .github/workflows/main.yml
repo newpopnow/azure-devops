@@ -1,0 +1,6 @@
+name: CI
+
+jobs:
+  build:
+    - name: Run make command
+      run: make hello
